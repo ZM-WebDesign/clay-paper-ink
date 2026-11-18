@@ -1021,6 +1021,106 @@ html, body{
     font-weight: 700;
 }
 
+/* Style Rules for Open Studio Page */
+
+.osbiggrid {
+
+}
+
+.osheader {
+    font-family: "Poppins", sans-serif;
+    color:#004B66;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.osdesc {
+    font-family: "Poppins", sans-serif;
+    color:#004B66;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.osdesc2 {
+    font-family: "Poppins", sans-serif;
+    color:#004B66;
+    font-size: 22px;
+}
+
+.bento1 {
+
+}
+
+.whatsincludedtxt {
+    font-family: "Poppins", sans-serif;
+    color:#004B66;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.widesc {
+    font-family: "Poppins", sans-serif;
+    color:#004B66;
+    font-size: 20px;
+}
+.boldwidesc {
+    font-family: "Poppins", sans-serif;
+    color:#004B66;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widescsmall {
+    font-family: "Poppins", sans-serif;
+    color:#004B66;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.bento2 {
+
+}
+
+li.osb1 {
+    font-family: "Poppins", sans-serif;
+    color:#004B66;
+    font-size: 20px;
+}
+li.osb1::marker {
+    color: #E5BA22;
+}
+
+li.osb2 {
+    font-family: "Poppins", sans-serif;
+    color:#004B66;
+    font-size: 20px;
+}
+
+li.osb2::marker {
+    color:#169C8C;
+}
+
+li.osb3 {
+    font-family: "Poppins", sans-serif;
+    color:#004B66;
+    font-size: 20px;
+}
+
+li.osb3::marker {
+    color: #6CC2D0;
+}
+
+li.osb4 {
+    font-family: "Poppins", sans-serif;
+    color:#004B66;
+    font-size: 20px;
+}
+
+li.osb4::marker {
+    color: #E8F7FD;
+}
 
 /* Style Rules for Footer Content */
 .homefooter {
