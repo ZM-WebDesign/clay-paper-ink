@@ -15,14 +15,19 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
    <header class="navbar-wrapper">
-  <nav class="navbar navbar-expand eventsnavstyle">
+ <nav class="navbar navbar-expand-lg eventsnavstyle">
     <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
-      <img src="images/Logo_Resized.png">
-      </a>
-      </div>
-    <div class="container-fluid">
-    <ul class="navbar-nav" style="padding-right: 200px">
+      <img src="images/Logo_Resized.png"> </a>
+
+
+      <button class="navbar-toggler eventsnavbutton" type="button" data-bs-toggle="collapse" data-bs-target="#eventsNavbar" aria-controls="eventsNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="eventsNavbar">
+    <ul class="navbar-nav pe-lg-5">
       <li class="nav-item eventsnav">
         <a class="nav-link gallery" style="color:#FFECAC" href="Gallery.html">Gallery</a>
       </li>
@@ -45,6 +50,7 @@
           <a class="nav-link contact" style="color:#FFECAC" href="Contact.html"> Contact </a>
         </li>
     </ul>
+    </div>
     </div>
     </nav>
     </header>

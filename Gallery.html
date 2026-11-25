@@ -14,14 +14,19 @@
   <body class="gallerypage">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 <header class="navbar-wrapper">
-  <nav class="navbar navbar-expand gallerynavstyle">
+ <nav class="navbar navbar-expand-lg gallerynavstyle">
     <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
-      <img src="images/Logo_Resized.png">
-      </a>
-      </div>
-    <div class="container-fluid">
-    <ul class="navbar-nav" style="padding-right: 200px">
+      <img src="images/Logo_Resized.png"> </a>
+
+
+      <button class="navbar-toggler gallerynavbutton" type="button" data-bs-toggle="collapse" data-bs-target="#galleryNavbar" aria-controls="galleryNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="galleryNavbar">
+    <ul class="navbar-nav pe-lg-5">
       <li class="nav-item gallerynav">
         <a class="nav-link gallery" style="color:#004B66" href="Gallery.html">Gallery</a>
       </li>
@@ -45,7 +50,10 @@
         </li>
     </ul>
     </div>
+    </div>
     </nav>
+
+
     <div class="pagetitle">
     <p> Gallery </p>
     </div>

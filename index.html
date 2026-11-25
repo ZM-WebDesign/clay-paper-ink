@@ -16,14 +16,19 @@
 
 
   <header class="navbar-wrapper">
-  <nav class="navbar navbar-expand homenavstyle">
+ <nav class="navbar navbar-expand-lg homenavstyle">
     <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
-      <img src="images/Logo_Resized.png">
-      </a>
-      </div>
-    <div class="container-fluid">
-    <ul class="navbar-nav" style="padding-right: 200px">
+      <img src="images/Logo_Resized.png"> </a>
+
+
+      <button class="navbar-toggler homenavbutton" type="button" data-bs-toggle="collapse" data-bs-target="#homeNavbar" aria-controls="homeNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="homeNavbar">
+    <ul class="navbar-nav pe-lg-5">
       <li class="nav-item homenav">
         <a class="nav-link gallery" style="color:#0A410C" href="Gallery.html">Gallery</a>
       </li>
@@ -46,6 +51,7 @@
           <a class="nav-link contact" style="color:#0A410C" href="Contact.html"> Contact </a>
         </li>
     </ul>
+    </div>
     </div>
     </nav>
     
