@@ -454,7 +454,7 @@ html, body{
     transition:0.4s;
 }
 
-/* Body Content Home Page */
+/*Style Rules for Home Page */
 
 .biotext {
      font-family: "Poppins", sans-serif;
@@ -467,103 +467,79 @@ html, body{
   line-height: 1.8;
 }
 
-
-.homeformtxt {
-    font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  font-style: italic;
-  color:#0A410C;
-  transform: translate(15px, 15px);
+.square1homepg {
+    background-color:#B7CB9E;
+    border-radius: 30px;
+    color:#0A410C;
+    text-align: center;
+    padding: 15px;
+    margin-top: 1rem;
 }
 
-.homeformtxt2 {
+.square2homepg {
+    background-color:#B7CB9E;
+    border-radius: 30px;
+    color:#0A410C;
+    text-align: center;
+    padding: 15px;
+    margin-top: 1rem;
+}
+
+.hourstxt1 {
     font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
+    color:#0A410C;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.hourstxt2 {
+    font-family: "Poppins", sans-serif;
+    color:#0A410C;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.hourstxt3 {
+    font-family: "Poppins", sans-serif;
+    color:#0A410C;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.formtxthomepg {
+    font-family: "Poppins", sans-serif;
+    color:#0A410C;
     font-style: italic;
-    color:#0A410C;
-   transform: translate(75px, 25px);
+    font-size: 18px;
 }
 
-.subformhome {
-    width: 359px; 
-    height: 54px;
-    color:#0A410C;
+.formtxthomepg2 {
     font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  opacity: 0.5;
-  position: relative;
-  transform: translate(25px, 15px);
-
-}
-.square {
-    background-color: #B7CB9E;                   
-    background-repeat: no-repeat;
-    border-radius: 15px;
-     width: 410px;  
-    height: 230px;  
-     margin-top: 190px;
-    margin-left: 235px;
-    transform: translate(20px, 90px);
-
+    color:#0A410C;
+    font-weight: 800;
+    font-size: 22px;
 }
 
 .homebtn {
-    background-color:#DEECC4;
-    color:#0A410C;
-    font-family:"Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 14px;
-    position: relative;
-    transform: translate(150px);
-    border-radius: 12px;
-    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+    background-color:#0A410C;
+    color:#DEECC4;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color, font-size, background-color, 0.3s;
 }
 
 .homebtn:hover {
+    font-family: "Poppins", sans-serif;
     background-color:#E5BA22;
     color:#0A410C;
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style:normal;
-    position:relative;
-    font-size: 16px;
-    transition: 0.4s;
-}
+    font-size: 22px;
+    font-weight: 700;
 
-.hourstext {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 25px;
-  font-style: normal;
-  color:#0A410C;
-  text-align: center;
-  transform: translateY(35px);
 }
-
-.hourstext2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 19px;
-    font-style: normal;
-    color:#0A410C;
-    text-align: center;
-    transform: translateY(50px);
-}
-
-.square2 {
-      background-color: #B7CB9E;                   
-    background-repeat: no-repeat;
-    border-radius: 15px;
-    width: 410px;  
-    height: 230px;  
-    transform: translateY(10px);
-}
-
-/* Body Content for Gallery Page */
+/*Style Rules for Gallery Page */
 
 .gallery-item {
     overflow: hidden;
@@ -719,7 +695,6 @@ html, body{
     text-align: center;
     font-weight: 700;
     background-color: #169C8C;
-    transform: translateX(620px);
     transition: 0.3s;
 
 }
@@ -729,7 +704,6 @@ html, body{
     font-weight: 800;
     background-color:#7EB79B;
     color:#FEE393;
-    transform: translateX(620px);
 
 }
 
@@ -986,43 +960,7 @@ html, body{
     background-color:#FEE393;
 }
 
-.credentialstxt {
-    font-family: "Poppins", sans-serif;
-    color:#004B66;
-    font-size: 25px;
-    font-style: italic;
-    transform: translateX(90px);
-}
 
-.txtcontainhs {
-    font-family: "Poppins", sans-serif;
-    color:#004B66;
-    font-size: 18px;
-    text-align: left;
-    line-height: 1.8;
-    padding: 0 20px;
-    margin: 0, auto;
-
-}
-
-.hsgrouptxt {
-    font-family: "Poppins", sans-serif;
-    color:#004B66;
-    font-size: 22px;
-    text-align: right;
-    margin: 0, auto;
-    padding: 0 20px;
-}
-
-.hsnumberlg {
-    font-family: "Poppins", sans-serif;
-    color:#004B66;
-    font-weight: 700;
-    font-size: 45px;
-    text-align: right;
-    margin: 0, auto;
-    padding: 0 40px;
-}
 
 .hstxtquery {
     color:#004B66;
@@ -1405,6 +1343,20 @@ li.osb4::marker {
     text-align: center;
     font-size: 0.85em;
     background-color: #0A410C;
+    color: #FCE5BB;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1% 0;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.calendarfooter {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #004B66;
     color: #FCE5BB;
     position: relative;
     left: 0;
